@@ -196,6 +196,24 @@ class Store(ctx: Context) : Progreso {
         get() = sp.getString("sheets_ultimo", "") ?: ""
         set(v) { sp.edit().putString("sheets_ultimo", v).apply() }
 
+    // ---- Horario leído desde una hoja de Google (pública por enlace) ----
+    var sheetsHorarioId: String
+        get() = sp.getString("sheets_h_id", "") ?: ""
+        set(v) { sp.edit().putString("sheets_h_id", v.trim()).apply() }
+
+    var sheetsHorarioAuto: Boolean
+        get() = sp.getBoolean("sheets_h_auto", true)
+        set(v) { sp.edit().putBoolean("sheets_h_auto", v).apply() }
+
+    var sheetsHorarioUltimo: String
+        get() = sp.getString("sheets_h_ultimo", "") ?: ""
+        set(v) { sp.edit().putString("sheets_h_ultimo", v).apply() }
+
+    /** Última vez que se intentó leer la hoja (para no repetirlo a cada rato). */
+    var sheetsHorarioTs: Long
+        get() = sp.getLong("sheets_h_ts", 0L)
+        set(v) { sp.edit().putLong("sheets_h_ts", v).apply() }
+
     // ---- Mantenimiento ----
     private val fechaEnClave = Regex("\\d{4}-\\d{2}-\\d{2}")
 

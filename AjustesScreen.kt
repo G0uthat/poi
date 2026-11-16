@@ -102,6 +102,10 @@ fun AjustesScreen(
     var sheetsToken by remember { mutableStateOf(st.sheetsToken) }
     var sheetsAuto by remember { mutableStateOf(st.sheetsAuto) }
     var sheetsEstado by remember { mutableStateOf(st.sheetsUltimo) }
+    var hojaLink by remember { mutableStateOf(st.sheetsHorarioId) }
+    var hojaAuto by remember { mutableStateOf(st.sheetsHorarioAuto) }
+    var hojaEstado by remember { mutableStateOf(st.sheetsHorarioUltimo) }
+    var hojaOcupada by remember { mutableStateOf(false) }
     var ocupado by remember { mutableStateOf(false) }
 
     fun aviso(t: String) = Toast.makeText(ctx, t, Toast.LENGTH_LONG).show()
@@ -261,6 +265,55 @@ fun AjustesScreen(
                     onClick = { ctx.startActivity(Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS)) },
                     modifier = Modifier.fillMaxWidth().padding(top = 6.dp)
                 ) { Text("Quitar ahorro de batería a esta app") }
+            }
+        }
+
+        item { SectionTitle("Horario desde hoja de Google") }
+        item {
+            Panel {
+                Text(
+                    "Edita tu horario en una hoja de Google (pestaña «Horario», opcional «Plan») y la app " +
+                        "lo copia sola. La hoja debe estar compartida como «Cualquier persona con el enlace · Lector». " +
+                        "Plantillas en google-sheets/LEEME.md.",
+                    color = Dc.muted, fontSize = 12.sp
+                )
+                OutlinedTextField(
+                    value = hojaLink,
+                    onValueChange = {
+                        hojaLink = it
+                        st.sheetsHorarioId = HorarioSheet.idDe(it) ?: ""
+                        HorarioSheet.programar(ctx)
+                    },
+                    singleLine = true, label = { Text("Enlace de la hoja") },
+                    modifier = Modifier.fillMaxWidth().padding(top = 8.dp)
+                )
+                FilaSwitch("Actualizar solo (al abrir y cada 3 h)", hojaAuto) { v ->
+                    hojaAuto = v; st.sheetsHorarioAuto = v; HorarioSheet.programar(ctx)
+                }
+                if (hojaEstado.isNotBlank()) Text(hojaEstado, color = Dc.muted, fontSize = 12.sp)
+                Row(Modifier.padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Button(
+                        enabled = !hojaOcupada && st.sheetsHorarioId.isNotBlank(),
+                        onClick = {
+                            hojaOcupada = true
+                            scope.launch {
+                                val r = withContext(Dispatchers.IO) { HorarioSheet.traer(ctx) }
+                                hojaEstado = r.mensaje
+                                if (r.cambio) bump()
+                                hojaOcupada = false
+                            }
+                        }
+                    ) { Text(if (hojaOcupada) "Leyendo…" else "Sincronizar ahora") }
+                    OutlinedButton(
+                        enabled = st.sheetsHorarioId.isNotBlank(),
+                        onClick = {
+                            ctx.startActivity(
+                                Intent(Intent.ACTION_VIEW, Uri.parse(HorarioSheet.urlAbrir(st.sheetsHorarioId)))
+                                    .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                            )
+                        }
+                    ) { Text("Abrir hoja") }
+                }
             }
         }
 

@@ -55,3 +55,16 @@ Cada cambio de `Codigo.gs` necesita **Administrar implementaciones → ✏️ �
 | «token incorrecto» | El token de la app no es igual al del script (cuidado con espacios) |
 | «primero cambia TOKEN en el script» | Dejaste el token de ejemplo |
 | «Sin conexión o error de red» | No hay internet; se reintenta solo |
+
+---
+
+## Horario desde una hoja de Google (la app lo lee)
+
+1. Crea una hoja de Google. Renombra la primera pestaña a **Horario** (exacto).
+2. `Archivo → Importar → Subir` → `Horario.csv` (de esta carpeta) → «Reemplazar hoja actual».
+3. Opcional: otra pestaña **Plan** con `Plan.csv` (fecha de inicio y eficiencia).
+4. `Compartir → Acceso general → Cualquier persona con el enlace → Lector`.
+5. En la app: Más → Ajustes → «Horario desde hoja de Google» → pega el enlace.
+
+Columnas: Día, Inicio, Fin, Pilar (Estudio, Entrenamiento, Relación, Personal), Actividad, Lugar, Notificar (SI/NO), Pista.
+Si enlazas una hoja, las ediciones locales del horario se sobrescriben en la siguiente sincronización.

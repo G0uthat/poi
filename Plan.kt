@@ -292,7 +292,7 @@ class Plan(
 
     // ---- Entrenamiento ----
     fun semanaActual(hoy: LocalDate): Int =
-        (((hoy.toEpochDay() - inicio.toEpochDay()) / 7) + 1).coerceIn(1, SEMANAS_PLAN).toInt()
+        (((hoy.toEpochDay() - inicio.toEpochDay()) / 7) + 1).coerceIn(1L, SEMANAS_PLAN.toLong()).toInt()
 
     /** True cuando ya pasaron las 12 semanas del plan. */
     fun terminado(hoy: LocalDate): Boolean =

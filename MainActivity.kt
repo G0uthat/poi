@@ -25,6 +25,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.semantics.clearAndSetSemantics
@@ -43,6 +45,7 @@ class MainActivity : ComponentActivity() {
         MonitorService.sync(this)
         PlanWidget.updateAll(this)
         SheetsSync.programar(this)
+        HorarioSheet.programar(this)
         // Limpieza de ajustes viejos fuera del hilo principal.
         val app = applicationContext
         Thread { Store(app).purgar() }.start()
@@ -57,7 +60,8 @@ fun AppRoot() {
     val ctx = LocalContext.current
     val st = remember { Store(ctx) }
     var tab by remember { mutableStateOf(0) }
-    var pantalla by remember { mutableStateOf(0) } // 0 = pestañas, 1 = ajustes, 2 = editor de horario
+    var pantalla by remember { mutableStateOf(0) } // 0 = pestañas, 1 = ajustes, 2 = editor, 3 = progreso, 4 = foco
+    var completa by remember { mutableStateOf(false) }
     var tick by remember { mutableStateOf(0) }
     var pendiente by remember { mutableStateOf<(() -> Unit)?>(null) }
     val leerTick = tick
@@ -103,21 +107,28 @@ fun AppRoot() {
         }
     }
 
-    BackHandler(enabled = pantalla != 0) {
-        pantalla = if (pantalla == 2) 1 else 0
+    BackHandler(enabled = pantalla != 0 || completa) {
+        if (pantalla != 0) pantalla = if (pantalla == 2) 1 else 0 else completa = false
     }
 
-    val tabs = listOf("🏠" to "Hoy", "📚" to "Estudio", "💪" to "Workout", "📈" to "Progreso", "⏱" to "Foco")
+    // Al abrir la app, trae el horario de la hoja de Google si hay una enlazada.
+    LaunchedEffect(Unit) {
+        val r = withContext(Dispatchers.IO) { HorarioSheet.traerSiToca(ctx) }
+        if (r != null && r.cambio) tick += 1
+    }
+
+    val tabs = listOf("●" to "Hoy", "▦" to "Horario", "◆" to "Estudio", "▲" to "Entreno", "⋯" to "Más")
+    val ocultaBarra = pantalla != 0 || (completa && tab == 1)
     Scaffold(
         containerColor = Dc.bg,
         bottomBar = {
-            if (pantalla == 0) {
+            if (!ocultaBarra) {
                 NavigationBar(containerColor = Dc.panel) {
-                    tabs.forEachIndexed { i, (emoji, nombre) ->
+                    tabs.forEachIndexed { i, (icono, nombre) ->
                         NavigationBarItem(
                             selected = tab == i,
                             onClick = { tab = i },
-                            icon = { Text(emoji, fontSize = 20.sp, modifier = Modifier.clearAndSetSemantics { }) },
+                            icon = { Text(icono, fontSize = 18.sp, modifier = Modifier.clearAndSetSemantics { }) },
                             label = { Text(nombre, fontSize = 11.sp) },
                             colors = NavigationBarItemDefaults.colors(
                                 indicatorColor = Dc.hover,
@@ -131,20 +142,24 @@ fun AppRoot() {
         }
     ) { pad ->
         Box(Modifier.padding(pad).fillMaxSize()) {
-            if (pantalla == 1) {
-                AjustesScreen(
+            when (pantalla) {
+                1 -> AjustesScreen(
                     plan, st, leerTick, bump, pedir, pedirPermiso,
                     onBack = { pantalla = 0 }, onEditor = { pantalla = 2 }
                 )
-            } else if (pantalla == 2) {
-                HorarioEditorScreen(plan, st, bump, onBack = { pantalla = 1 })
-            } else {
-                when (tab) {
+                2 -> HorarioEditorScreen(plan, st, bump, onBack = { pantalla = 1 })
+                3 -> ConVolver("Más", onBack = { pantalla = 0 }) { ProgresoScreen(plan, st, leerTick, bump) }
+                4 -> ConVolver("Más", onBack = { pantalla = 0 }) { FocoScreen(st, leerTick, bump, pedir) }
+                else -> when (tab) {
                     0 -> HoyScreen(plan, st, leerTick, bump, onSettings = { pantalla = 1 })
-                    1 -> EstudioScreen(plan, st, leerTick, bump)
-                    2 -> WorkoutScreen(plan, st, leerTick, bump)
-                    3 -> ProgresoScreen(plan, st, leerTick, bump)
-                    else -> FocoScreen(st, leerTick, bump, pedir)
+                    1 -> HorarioScreen(plan, st, leerTick, bump, completa) { completa = it }
+                    2 -> EstudioScreen(plan, st, leerTick, bump)
+                    3 -> WorkoutScreen(plan, st, leerTick, bump)
+                    else -> MasScreen(
+                        onProgreso = { pantalla = 3 },
+                        onFoco = { pantalla = 4 },
+                        onAjustes = { pantalla = 1 }
+                    )
                 }
             }
         }
