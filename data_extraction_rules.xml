@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android ≥ 12: igual, para la copia en la nube de Google y para el cambio de teléfono. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="sharedpref" path="plan.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="sharedpref" path="plan.xml" />
+    </device-transfer>
+</data-extraction-rules>

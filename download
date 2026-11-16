@@ -1,0 +1,21 @@
+# Gradle / Android Studio
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Salidas y claves
+*.apk
+*.aab
+*.keystore
+*.jks
+# Esta clave de depuración es pública (contraseña "android") y la usa el build para firmar:
+!app/debug.keystore
+
+# Sistema
+.DS_Store
+Thumbs.db

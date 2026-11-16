@@ -1,0 +1,2121 @@
+{
+ "inicio": "2026-11-16",
+ "eficiencia": 0.85,
+ "horario": [
+  {
+   "dia": "Lunes",
+   "ini": "19:00",
+   "fin": "19:45",
+   "pilar": "Personal",
+   "act": "Llegar a casa, cenar y asearse"
+  },
+  {
+   "dia": "Lunes",
+   "ini": "19:45",
+   "fin": "21:15",
+   "pilar": "Estudio",
+   "act": "Hito del día: abre 'Línea de Tiempo' y haz el '► HOY TOCA' de la pista A"
+  },
+  {
+   "dia": "Lunes",
+   "ini": "21:15",
+   "fin": "21:30",
+   "pilar": "Personal",
+   "act": "Descanso corto (agua, estirar)"
+  },
+  {
+   "dia": "Lunes",
+   "ini": "21:30",
+   "fin": "22:15",
+   "pilar": "Entrenamiento",
+   "act": "Calistenia: SESIÓN A (cuerpo completo, técnica)"
+  },
+  {
+   "dia": "Lunes",
+   "ini": "22:15",
+   "fin": "23:30",
+   "pilar": "Relación",
+   "act": "Tiempo con tu novia: jugar, hablar o estudiar a su lado"
+  },
+  {
+   "dia": "Lunes",
+   "ini": "23:30",
+   "fin": "00:00",
+   "pilar": "Personal",
+   "act": "Marcar el hito en el Excel, preparar mañana y dormir"
+  },
+  {
+   "dia": "Martes",
+   "ini": "19:00",
+   "fin": "19:45",
+   "pilar": "Personal",
+   "act": "Llegar a casa, cenar y asearse"
+  },
+  {
+   "dia": "Martes",
+   "ini": "19:45",
+   "fin": "21:15",
+   "pilar": "Estudio",
+   "act": "Hito del día: abre 'Línea de Tiempo' y haz el '► HOY TOCA' de la pista A"
+  },
+  {
+   "dia": "Martes",
+   "ini": "21:15",
+   "fin": "21:30",
+   "pilar": "Personal",
+   "act": "Descanso corto (agua, estirar)"
+  },
+  {
+   "dia": "Martes",
+   "ini": "21:30",
+   "fin": "22:15",
+   "pilar": "Estudio",
+   "act": "Práctica del hito (ejercicios, problemas o repaso de dudas)"
+  },
+  {
+   "dia": "Martes",
+   "ini": "22:15",
+   "fin": "23:30",
+   "pilar": "Relación",
+   "act": "Tiempo con tu novia: jugar, hablar o estudiar a su lado"
+  },
+  {
+   "dia": "Martes",
+   "ini": "23:30",
+   "fin": "00:00",
+   "pilar": "Personal",
+   "act": "Marcar el hito en el Excel, preparar mañana y dormir"
+  },
+  {
+   "dia": "Miércoles",
+   "ini": "19:00",
+   "fin": "19:45",
+   "pilar": "Personal",
+   "act": "Llegar a casa, cenar y asearse"
+  },
+  {
+   "dia": "Miércoles",
+   "ini": "19:45",
+   "fin": "21:15",
+   "pilar": "Estudio",
+   "act": "Hito del día: abre 'Línea de Tiempo' y haz el '► HOY TOCA' de la pista A"
+  },
+  {
+   "dia": "Miércoles",
+   "ini": "21:15",
+   "fin": "21:30",
+   "pilar": "Personal",
+   "act": "Descanso corto (agua, estirar)"
+  },
+  {
+   "dia": "Miércoles",
+   "ini": "21:30",
+   "fin": "22:15",
+   "pilar": "Entrenamiento",
+   "act": "Calistenia: SESIÓN B (cuerpo completo, técnica)"
+  },
+  {
+   "dia": "Miércoles",
+   "ini": "22:15",
+   "fin": "23:30",
+   "pilar": "Relación",
+   "act": "Tiempo con tu novia: jugar, hablar o estudiar a su lado"
+  },
+  {
+   "dia": "Miércoles",
+   "ini": "23:30",
+   "fin": "00:00",
+   "pilar": "Personal",
+   "act": "Marcar el hito en el Excel, preparar mañana y dormir"
+  },
+  {
+   "dia": "Jueves",
+   "ini": "19:00",
+   "fin": "19:45",
+   "pilar": "Personal",
+   "act": "Llegar a casa, cenar y asearse"
+  },
+  {
+   "dia": "Jueves",
+   "ini": "19:45",
+   "fin": "21:15",
+   "pilar": "Estudio",
+   "act": "Hito del día: abre 'Línea de Tiempo' y haz el '► HOY TOCA' de la pista A"
+  },
+  {
+   "dia": "Jueves",
+   "ini": "21:15",
+   "fin": "21:30",
+   "pilar": "Personal",
+   "act": "Descanso corto (agua, estirar)"
+  },
+  {
+   "dia": "Jueves",
+   "ini": "21:30",
+   "fin": "22:15",
+   "pilar": "Estudio",
+   "act": "Práctica del hito (ejercicios, problemas o repaso de dudas)"
+  },
+  {
+   "dia": "Jueves",
+   "ini": "22:15",
+   "fin": "23:30",
+   "pilar": "Relación",
+   "act": "Tiempo con tu novia: jugar, hablar o estudiar a su lado"
+  },
+  {
+   "dia": "Jueves",
+   "ini": "23:30",
+   "fin": "00:00",
+   "pilar": "Personal",
+   "act": "Marcar el hito en el Excel, preparar mañana y dormir"
+  },
+  {
+   "dia": "Viernes",
+   "ini": "19:00",
+   "fin": "19:45",
+   "pilar": "Personal",
+   "act": "Llegar a casa, cenar y asearse"
+  },
+  {
+   "dia": "Viernes",
+   "ini": "19:45",
+   "fin": "21:15",
+   "pilar": "Estudio",
+   "act": "Hito del día: abre 'Línea de Tiempo' y haz el '► HOY TOCA' de la pista A"
+  },
+  {
+   "dia": "Viernes",
+   "ini": "21:15",
+   "fin": "21:30",
+   "pilar": "Personal",
+   "act": "Descanso corto (agua, estirar)"
+  },
+  {
+   "dia": "Viernes",
+   "ini": "21:30",
+   "fin": "22:15",
+   "pilar": "Entrenamiento",
+   "act": "Calistenia: SESIÓN A (cuerpo completo, técnica)"
+  },
+  {
+   "dia": "Viernes",
+   "ini": "22:15",
+   "fin": "23:30",
+   "pilar": "Relación",
+   "act": "Tiempo con tu novia: jugar, hablar o estudiar a su lado"
+  },
+  {
+   "dia": "Viernes",
+   "ini": "23:30",
+   "fin": "00:00",
+   "pilar": "Personal",
+   "act": "Marcar el hito en el Excel, preparar mañana y dormir"
+  },
+  {
+   "dia": "Sábado",
+   "ini": "09:00",
+   "fin": "09:30",
+   "pilar": "Personal",
+   "act": "Desayuno y arreglo"
+  },
+  {
+   "dia": "Sábado",
+   "ini": "09:30",
+   "fin": "12:00",
+   "pilar": "Estudio",
+   "act": "Hito profundo del curso en curso (teoría + práctica)"
+  },
+  {
+   "dia": "Sábado",
+   "ini": "12:00",
+   "fin": "13:30",
+   "pilar": "Personal",
+   "act": "Almuerzo y descanso"
+  },
+  {
+   "dia": "Sábado",
+   "ini": "13:30",
+   "fin": "14:30",
+   "pilar": "Estudio",
+   "act": "Resolver problemas / proyecto práctico"
+  },
+  {
+   "dia": "Sábado",
+   "ini": "14:30",
+   "fin": "15:00",
+   "pilar": "Personal",
+   "act": "Descanso"
+  },
+  {
+   "dia": "Sábado",
+   "ini": "15:00",
+   "fin": "16:00",
+   "pilar": "Entrenamiento",
+   "act": "Caminata rápida 30–40 min + estiramientos (recuperación activa)"
+  },
+  {
+   "dia": "Sábado",
+   "ini": "16:00",
+   "fin": "19:00",
+   "pilar": "Relación",
+   "act": "Tiempo con tu novia (salida, juegos, conversación)"
+  },
+  {
+   "dia": "Sábado",
+   "ini": "19:00",
+   "fin": "20:00",
+   "pilar": "Personal",
+   "act": "Cena"
+  },
+  {
+   "dia": "Sábado",
+   "ini": "20:00",
+   "fin": "23:30",
+   "pilar": "Relación",
+   "act": "Tiempo con tu novia"
+  },
+  {
+   "dia": "Sábado",
+   "ini": "23:30",
+   "fin": "00:00",
+   "pilar": "Personal",
+   "act": "Marcar avance en el Excel y dormir"
+  },
+  {
+   "dia": "Domingo",
+   "ini": "09:30",
+   "fin": "10:00",
+   "pilar": "Personal",
+   "act": "Desayuno"
+  },
+  {
+   "dia": "Domingo",
+   "ini": "10:00",
+   "fin": "12:30",
+   "pilar": "Estudio",
+   "act": "Segundo curso (pista B · matemática): el que marque 'Línea de Tiempo' en '► HOY TOCA'"
+  },
+  {
+   "dia": "Domingo",
+   "ini": "12:30",
+   "fin": "14:00",
+   "pilar": "Personal",
+   "act": "Almuerzo y descanso"
+  },
+  {
+   "dia": "Domingo",
+   "ini": "14:00",
+   "fin": "14:30",
+   "pilar": "Entrenamiento",
+   "act": "Movilidad suave 10–15 min (no hay entrenamiento fuerte)"
+  },
+  {
+   "dia": "Domingo",
+   "ini": "14:30",
+   "fin": "15:30",
+   "pilar": "Estudio",
+   "act": "Proyecto práctico / revisión de dudas de la semana"
+  },
+  {
+   "dia": "Domingo",
+   "ini": "15:30",
+   "fin": "16:00",
+   "pilar": "Personal",
+   "act": "Revisión semanal: mira 'Línea de Tiempo' (¿vas atrasado?) y ajusta la semana que viene"
+  },
+  {
+   "dia": "Domingo",
+   "ini": "16:00",
+   "fin": "19:00",
+   "pilar": "Relación",
+   "act": "Tiempo con tu novia"
+  },
+  {
+   "dia": "Domingo",
+   "ini": "19:00",
+   "fin": "20:00",
+   "pilar": "Personal",
+   "act": "Cena"
+  },
+  {
+   "dia": "Domingo",
+   "ini": "20:00",
+   "fin": "23:00",
+   "pilar": "Relación",
+   "act": "Tiempo con tu novia"
+  },
+  {
+   "dia": "Domingo",
+   "ini": "23:00",
+   "fin": "00:00",
+   "pilar": "Personal",
+   "act": "Preparar la semana y dormir temprano"
+  }
+ ],
+ "orden": [
+  {
+   "pista": "A",
+   "nombre": "Introducción a los Algoritmos",
+   "ciclo": "Ciclo 1",
+   "area": "Ciencias de la Computación",
+   "fuentes": "learncpp.com (cap. 0–8) · CS50x Semanas 0–2 (cs50.harvard.edu/x) · Exercism C++ (exercism.org/tracks/cpp)"
+  },
+  {
+   "pista": "B",
+   "nombre": "Cálculo I",
+   "ciclo": "Ciclo 2",
+   "area": "Ciencias Básicas",
+   "fuentes": "Khan Academy en español: Cálculo diferencial (es.khanacademy.org) · MIT OCW 18.01 Single Variable Calculus (ocw.mit.edu) · 3Blue1Brown: Essence of Calculus (YouTube)"
+  },
+  {
+   "pista": "A",
+   "nombre": "Algoritmos",
+   "ciclo": "Ciclo 2",
+   "area": "Ciencias de la Computación",
+   "fuentes": "learncpp.com (cap. 12–19) · CS50x Semana 3 (Algoritmos) · CSES Problem Set (cses.fi/problemset) · cppreference.com"
+  },
+  {
+   "pista": "A",
+   "nombre": "Aplicaciones de Ingeniería de Software",
+   "ciclo": "Ciclo 2",
+   "area": "Ingeniería de Software",
+   "fuentes": "Pro Git en español (git-scm.com/book/es/v2) · Software Engineering at Google (abseil.io/resources/swe-book) · GoogleTest Primer (google.github.io/googletest) · uml-diagrams.org"
+  },
+  {
+   "pista": "A",
+   "nombre": "C++ moderno (roadmap.sh/cpp)",
+   "ciclo": "Roadmap C++",
+   "area": "Roadmap C++",
+   "fuentes": "roadmap.sh/cpp · learncpp.com (cap. 10–27) · cppreference.com · libro 'A Tour of C++' (Stroustrup)"
+  },
+  {
+   "pista": "B",
+   "nombre": "Matemática Discreta",
+   "ciclo": "Ciclo 3",
+   "area": "Ciencias Básicas",
+   "fuentes": "Discrete Mathematics: An Open Introduction (discrete.openmathbooks.org) · MIT OCW 6.042J Mathematics for Computer Science (ocw.mit.edu) · Khan Academy"
+  },
+  {
+   "pista": "A",
+   "nombre": "Diseño y Patrones de Software",
+   "ciclo": "Ciclo 3",
+   "area": "Ingeniería de Software",
+   "fuentes": "refactoring.guru/es/design-patterns (con ejemplos en C++) · refactoring.guru/es/design-principles · libro 'Head First Design Patterns'"
+  },
+  {
+   "pista": "A",
+   "nombre": "Estructuras de Datos Avanzadas",
+   "ciclo": "Ciclo 3",
+   "area": "Ciencias de la Computación",
+   "fuentes": "MIT OCW 6.006 Introduction to Algorithms (ocw.mit.edu) · CS50x Semana 5 · Competitive Programmer's Handbook (cses.fi/book) · cppreference.com"
+  },
+  {
+   "pista": "A",
+   "nombre": "Ingeniería de Requisitos",
+   "ciclo": "Ciclo 3",
+   "area": "Ingeniería de Software",
+   "fuentes": "Atlassian Agile Coach: user stories (atlassian.com/agile) · libro 'Software Requirements' (Karl Wiegers) · The Scrum Guide (scrumguides.org)"
+  },
+  {
+   "pista": "A",
+   "nombre": "Arquitectura de Computadores",
+   "ciclo": "Ciclo 4",
+   "area": "Tecnología de Información",
+   "fuentes": "Nand2Tetris Parte I (nand2tetris.org) · CS50x Semana 0 (cs50.harvard.edu/x) · libro 'Code' de Charles Petzold"
+  },
+  {
+   "pista": "A",
+   "nombre": "Base de Datos",
+   "ciclo": "Ciclo 4",
+   "area": "Ciencias de la Computación",
+   "fuentes": "SQLBolt (sqlbolt.com) · CS50's Introduction to Databases with SQL (cs50.harvard.edu/sql) · Use The Index, Luke (use-the-index-luke.com) · CMU 15-445 (YouTube) · SQLite (sqlite.org/cintro.html)"
+  },
+  {
+   "pista": "A",
+   "nombre": "HCI for UX Design",
+   "ciclo": "Ciclo 4",
+   "area": "Tecnología de Información",
+   "fuentes": "Nielsen Norman Group (nngroup.com/articles) · Laws of UX (lawsofux.com) · libro 'Don't Make Me Think' (Steve Krug) · W3C WAI (w3.org/WAI) · Figma (figma.com)"
+  },
+  {
+   "pista": "B",
+   "nombre": "Matemática Computacional",
+   "ciclo": "Ciclo 4",
+   "area": "Ciencias Básicas",
+   "fuentes": "3Blue1Brown: Essence of Linear Algebra (YouTube) · MIT OCW 18.06 Linear Algebra (ocw.mit.edu) · Khan Academy: Álgebra lineal · Contenido referencial: contrástalo con el sílabo UPC"
+  },
+  {
+   "pista": "A",
+   "nombre": "Aplicaciones para Plataformas Web",
+   "ciclo": "Ciclo 5",
+   "area": "Ingeniería de Software",
+   "fuentes": "The Odin Project (theodinproject.com) · MDN Web Docs (developer.mozilla.org) · javascript.info · roadmap.sh/frontend y roadmap.sh/backend"
+  },
+  {
+   "pista": "A",
+   "nombre": "Desarrollo de Aplicaciones Open Source",
+   "ciclo": "Ciclo 5",
+   "area": "Ingeniería de Software",
+   "fuentes": "Open Source Guides (opensource.guide) · First Contributions (github.com/firstcontributions/first-contributions) · GitHub Skills (skills.github.com) · choosealicense.com"
+  },
+  {
+   "pista": "A",
+   "nombre": "Sistemas Operativos",
+   "ciclo": "Ciclo 5",
+   "area": "Tecnología de Información",
+   "fuentes": "OSTEP (pages.cs.wisc.edu/~remzi/OSTEP, gratis) · proyectos de OSTEP (github.com/remzi-arpacidusseau/ostep-projects) · MIT 6.S081 (pdos.csail.mit.edu/6.S081)"
+  },
+  {
+   "pista": "A",
+   "nombre": "Aplicaciones para Plataformas Móviles",
+   "ciclo": "Ciclo 6",
+   "area": "Ingeniería de Software",
+   "fuentes": "Android Basics with Compose (developer.android.com/courses) · Flutter codelabs (docs.flutter.dev) · roadmap.sh/android"
+  },
+  {
+   "pista": "A",
+   "nombre": "Complejidad Algorítmica",
+   "ciclo": "Ciclo 6",
+   "area": "Ciencias de la Computación",
+   "fuentes": "MIT OCW 6.006 (ocw.mit.edu) · Competitive Programmer's Handbook (cses.fi/book) · libro CLRS 'Introduction to Algorithms' · MIT OCW 6.046J"
+  },
+  {
+   "pista": "B",
+   "nombre": "Estadística Aplicada I",
+   "ciclo": "Ciclo 6",
+   "area": "Ciencias Básicas",
+   "fuentes": "Khan Academy: Estadística y probabilidad (es.khanacademy.org) · 'Think Stats' (greenteapress.com/thinkstats2, gratis) · StatQuest (YouTube)"
+  },
+  {
+   "pista": "A",
+   "nombre": "Redes y Comunicaciones de Datos",
+   "ciclo": "Ciclo 6",
+   "area": "Tecnología de Información",
+   "fuentes": "Kurose & Ross: Computer Networking (gaia.cs.umass.edu/kurose_ross) · Beej's Guide to Network Programming (beej.us/guide/bgnet) · Wireshark (wireshark.org)"
+  },
+  {
+   "pista": "A",
+   "nombre": "Arquitecturas de Software",
+   "ciclo": "Ciclo 7",
+   "area": "Ingeniería de Software",
+   "fuentes": "martinfowler.com/architecture · The Clean Architecture (blog.cleancoder.com) · c4model.com · microservices.io · roadmap.sh/software-design-architecture"
+  },
+  {
+   "pista": "A",
+   "nombre": "Desarrollo de Soluciones IoT",
+   "ciclo": "Ciclo 7",
+   "area": "Tecnología de Información",
+   "fuentes": "Arduino Docs (docs.arduino.cc/learn) · ESP32 (docs.espressif.com) · MQTT (mqtt.org) · Mosquitto (mosquitto.org). Hardware económico: compra solo cuando llegues a este curso"
+  },
+  {
+   "pista": "A",
+   "nombre": "Diseño de Experimentos de Ingeniería de Software",
+   "ciclo": "Ciclo 7",
+   "area": "Ingeniería de Software",
+   "fuentes": "libro 'Experimentation in Software Engineering' (Wohlin et al.) · 'Think Stats' (greenteapress.com/thinkstats2) · Khan Academy: Estadística"
+  },
+  {
+   "pista": "A",
+   "nombre": "Arquitecturas de Software en Tecnologías Emergentes",
+   "ciclo": "Ciclo 8",
+   "area": "Ingeniería de Software",
+   "fuentes": "Docker Get Started (docs.docker.com/get-started) · Kubernetes Basics (kubernetes.io/docs/tutorials/kubernetes-basics) · AWS Skill Builder: Cloud Essentials (skillbuilder.aws) · Google ML Crash Course (developers.google.com/machine-learning/crash-course)"
+  },
+  {
+   "pista": "A",
+   "nombre": "Gerencia de Proyectos en Computación",
+   "ciclo": "Ciclo 8",
+   "area": "Ingeniería de Software",
+   "fuentes": "The Scrum Guide (scrumguides.org) · The Kanban Guide (kanbanguides.org) · Atlassian Agile Coach (atlassian.com/agile) · GitHub Projects (docs.github.com)"
+  },
+  {
+   "pista": "A",
+   "nombre": "Calidad y Mejora de Procesos de Software",
+   "ciclo": "Ciclo 9",
+   "area": "Ingeniería de Software",
+   "fuentes": "ISTQB Foundation Level Syllabus (istqb.org, PDF gratis) · cppcheck (cppcheck.sourceforge.io) · GitHub Actions (docs.github.com/actions) · ISO/IEC 25010 (resumen)"
+  },
+  {
+   "pista": "A",
+   "nombre": "Desarrollo Ágil de Productos de Software",
+   "ciclo": "Ciclo 9",
+   "area": "Ingeniería de Software",
+   "fuentes": "Agile Manifesto (agilemanifesto.org) · The Scrum Guide (scrumguides.org) · libro 'Test Driven Development: By Example' (Kent Beck) · GoogleTest"
+  }
+ ],
+ "hitos": [
+  {
+   "id": "1.1",
+   "curso": "Introducción a los Algoritmos",
+   "hito": "Instalar g++ y un editor; compilar tu 'Hola mundo'",
+   "donde": "learncpp.com cap. 0 · roadmap.sh/cpp: Setting up your Environment",
+   "horas": 4
+  },
+  {
+   "id": "1.2",
+   "curso": "Introducción a los Algoritmos",
+   "hito": "Variables, tipos de datos y operadores",
+   "donde": "learncpp.com cap. 1, 4, 6",
+   "horas": 8
+  },
+  {
+   "id": "1.3",
+   "curso": "Introducción a los Algoritmos",
+   "hito": "Condicionales: if/else y switch",
+   "donde": "learncpp.com cap. 8",
+   "horas": 5
+  },
+  {
+   "id": "1.4",
+   "curso": "Introducción a los Algoritmos",
+   "hito": "Bucles: for, while y do-while",
+   "donde": "learncpp.com cap. 8",
+   "horas": 6
+  },
+  {
+   "id": "1.5",
+   "curso": "Introducción a los Algoritmos",
+   "hito": "Funciones: parámetros, retorno y sobrecarga",
+   "donde": "learncpp.com cap. 2, 11",
+   "horas": 8
+  },
+  {
+   "id": "1.6",
+   "curso": "Introducción a los Algoritmos",
+   "hito": "Arreglos y std::vector",
+   "donde": "learncpp.com cap. 16, 17",
+   "horas": 8
+  },
+  {
+   "id": "1.7",
+   "curso": "Introducción a los Algoritmos",
+   "hito": "Strings y entrada/salida con cin/cout",
+   "donde": "learncpp.com cap. 5, 28",
+   "horas": 6
+  },
+  {
+   "id": "1.8",
+   "curso": "Introducción a los Algoritmos",
+   "hito": "Resolver 20 ejercicios básicos",
+   "donde": "Exercism C++ track (exercism.org/tracks/cpp)",
+   "horas": 15
+  },
+  {
+   "id": "2.1",
+   "curso": "Cálculo I",
+   "hito": "Límites y continuidad",
+   "donde": "Khan Academy: Límites y continuidad",
+   "horas": 8
+  },
+  {
+   "id": "2.2",
+   "curso": "Cálculo I",
+   "hito": "Definición de derivada e interpretación geométrica",
+   "donde": "3Blue1Brown: Essence of Calculus · Khan Academy",
+   "horas": 6
+  },
+  {
+   "id": "2.3",
+   "curso": "Cálculo I",
+   "hito": "Reglas de derivación (producto, cociente y cadena)",
+   "donde": "Khan Academy: Cálculo diferencial",
+   "horas": 8
+  },
+  {
+   "id": "2.4",
+   "curso": "Cálculo I",
+   "hito": "Aplicaciones: máximos, mínimos y razón de cambio",
+   "donde": "MIT OCW 18.01",
+   "horas": 8
+  },
+  {
+   "id": "2.5",
+   "curso": "Cálculo I",
+   "hito": "Integral definida e indefinida (introducción)",
+   "donde": "Khan Academy: Cálculo integral · 3Blue1Brown",
+   "horas": 8
+  },
+  {
+   "id": "2.6",
+   "curso": "Cálculo I",
+   "hito": "Resolver 30 ejercicios de práctica",
+   "donde": "Khan Academy (ejercicios) · MIT OCW 18.01 (problem sets)",
+   "horas": 12
+  },
+  {
+   "id": "3.1",
+   "curso": "Algoritmos",
+   "hito": "Punteros y referencias",
+   "donde": "learncpp.com cap. 12",
+   "horas": 10
+  },
+  {
+   "id": "3.2",
+   "curso": "Algoritmos",
+   "hito": "Memoria dinámica (new/delete) y fugas de memoria",
+   "donde": "learncpp.com cap. 19 · roadmap.sh/cpp: Memory Model",
+   "horas": 8
+  },
+  {
+   "id": "3.3",
+   "curso": "Algoritmos",
+   "hito": "Recursión",
+   "donde": "CS50x Semana 3 · learncpp.com cap. 20",
+   "horas": 8
+  },
+  {
+   "id": "3.4",
+   "curso": "Algoritmos",
+   "hito": "Búsqueda lineal y binaria",
+   "donde": "CS50x Semana 3 · cppreference.com (std::binary_search)",
+   "horas": 6
+  },
+  {
+   "id": "3.5",
+   "curso": "Algoritmos",
+   "hito": "Ordenamiento: burbuja, selección, inserción y merge sort",
+   "donde": "CS50x Semana 3 · Competitive Programmer's Handbook (cses.fi/book)",
+   "horas": 10
+  },
+  {
+   "id": "3.6",
+   "curso": "Algoritmos",
+   "hito": "STL esencial: vector, map, set y algorithm",
+   "donde": "learncpp.com cap. 18 · cppreference.com",
+   "horas": 8
+  },
+  {
+   "id": "3.7",
+   "curso": "Algoritmos",
+   "hito": "Structs y manejo de archivos",
+   "donde": "learncpp.com cap. 13, 28",
+   "horas": 6
+  },
+  {
+   "id": "3.8",
+   "curso": "Algoritmos",
+   "hito": "Resolver 30 problemas de Introductory Problems",
+   "donde": "CSES Problem Set (cses.fi/problemset)",
+   "horas": 25
+  },
+  {
+   "id": "4.1",
+   "curso": "Aplicaciones de Ingeniería de Software",
+   "hito": "Git básico: init, add, commit, branch y merge",
+   "donde": "Pro Git cap. 1–3",
+   "horas": 6
+  },
+  {
+   "id": "4.2",
+   "curso": "Aplicaciones de Ingeniería de Software",
+   "hito": "GitHub: repositorio remoto, push y pull request",
+   "donde": "docs.github.com/es/get-started",
+   "horas": 4
+  },
+  {
+   "id": "4.3",
+   "curso": "Aplicaciones de Ingeniería de Software",
+   "hito": "Ciclo de vida del software y modelos (cascada, ágil)",
+   "donde": "roadmap.sh/software-design-architecture",
+   "horas": 5
+  },
+  {
+   "id": "4.4",
+   "curso": "Aplicaciones de Ingeniería de Software",
+   "hito": "Diagramas UML básicos: casos de uso y clases",
+   "donde": "uml-diagrams.org",
+   "horas": 6
+  },
+  {
+   "id": "4.5",
+   "curso": "Aplicaciones de Ingeniería de Software",
+   "hito": "Pruebas unitarias con GoogleTest",
+   "donde": "google.github.io/googletest (Primer)",
+   "horas": 6
+  },
+  {
+   "id": "4.6",
+   "curso": "Aplicaciones de Ingeniería de Software",
+   "hito": "Documentar con README en Markdown",
+   "donde": "docs.github.com/es: Acerca de los README",
+   "horas": 2
+  },
+  {
+   "id": "4.7",
+   "curso": "Aplicaciones de Ingeniería de Software",
+   "hito": "Mini proyecto: app de consola con repo en GitHub y 5 tests",
+   "donde": "Tu propio repositorio",
+   "horas": 15
+  },
+  {
+   "id": "5.1",
+   "curso": "C++ moderno (roadmap.sh/cpp)",
+   "hito": "Modelo de memoria, ciclo de vida de objetos y fugas",
+   "donde": "learncpp.com cap. 12, 19 · roadmap.sh/cpp: Memory Model",
+   "horas": 8
+  },
+  {
+   "id": "5.2",
+   "curso": "C++ moderno (roadmap.sh/cpp)",
+   "hito": "Smart pointers: unique_ptr, shared_ptr y weak_ptr",
+   "donde": "learncpp.com cap. 22",
+   "horas": 8
+  },
+  {
+   "id": "5.3",
+   "curso": "C++ moderno (roadmap.sh/cpp)",
+   "hito": "Organizar el código: headers/.cpp, scope y namespaces",
+   "donde": "learncpp.com cap. 2, 7",
+   "horas": 6
+  },
+  {
+   "id": "5.4",
+   "curso": "C++ moderno (roadmap.sh/cpp)",
+   "hito": "Clases y structs; regla de 0, 3 y 5",
+   "donde": "learncpp.com cap. 14, 15, 21",
+   "horas": 10
+  },
+  {
+   "id": "5.5",
+   "curso": "C++ moderno (roadmap.sh/cpp)",
+   "hito": "POO: herencia, métodos virtuales, vtables y herencia en diamante",
+   "donde": "learncpp.com cap. 24, 25",
+   "horas": 10
+  },
+  {
+   "id": "5.6",
+   "curso": "C++ moderno (roadmap.sh/cpp)",
+   "hito": "Excepciones y códigos de salida",
+   "donde": "learncpp.com cap. 27",
+   "horas": 5
+  },
+  {
+   "id": "5.7",
+   "curso": "C++ moderno (roadmap.sh/cpp)",
+   "hito": "Lambdas, auto y conversiones (static_cast, dynamic_cast…)",
+   "donde": "learncpp.com cap. 10, 20 · cppreference.com",
+   "horas": 8
+  },
+  {
+   "id": "5.8",
+   "curso": "C++ moderno (roadmap.sh/cpp)",
+   "hito": "Templates: especialización, variádicos y type traits",
+   "donde": "learncpp.com cap. 11, 26",
+   "horas": 10
+  },
+  {
+   "id": "5.9",
+   "curso": "C++ moderno (roadmap.sh/cpp)",
+   "hito": "STL: contenedores, iteradores y algoritmos",
+   "donde": "learncpp.com cap. 16–18 · cppreference.com",
+   "horas": 10
+  },
+  {
+   "id": "5.10",
+   "curso": "C++ moderno (roadmap.sh/cpp)",
+   "hito": "Idioms: RAII, Pimpl, CRTP y copy-and-swap",
+   "donde": "'A Tour of C++' · roadmap.sh/cpp: Idioms",
+   "horas": 8
+  },
+  {
+   "id": "5.11",
+   "curso": "C++ moderno (roadmap.sh/cpp)",
+   "hito": "Estándares C++11/14/17/20: qué trae cada uno",
+   "donde": "roadmap.sh/cpp: Standards · cppreference.com",
+   "horas": 6
+  },
+  {
+   "id": "5.12",
+   "curso": "C++ moderno (roadmap.sh/cpp)",
+   "hito": "Compilación y depuración: etapas, GCC/Clang y GDB",
+   "donde": "roadmap.sh/cpp: Compilers y Debuggers · sourceware.org/gdb/documentation",
+   "horas": 8
+  },
+  {
+   "id": "5.13",
+   "curso": "C++ moderno (roadmap.sh/cpp)",
+   "hito": "Build y paquetes: CMake, Makefile/Ninja y vcpkg/Conan",
+   "donde": "cmake.org (Tutorial) · vcpkg.io · conan.io",
+   "horas": 10
+  },
+  {
+   "id": "5.14",
+   "curso": "C++ moderno (roadmap.sh/cpp)",
+   "hito": "Librerías y pruebas: GoogleTest, Catch2, Boost o Qt según proyecto",
+   "donde": "google.github.io/googletest · boost.org · qt.io",
+   "horas": 10
+  },
+  {
+   "id": "6.1",
+   "curso": "Diseño y Patrones de Software",
+   "hito": "Principios SOLID",
+   "donde": "refactoring.guru/es/design-principles",
+   "horas": 6
+  },
+  {
+   "id": "6.2",
+   "curso": "Diseño y Patrones de Software",
+   "hito": "Singleton y Factory Method",
+   "donde": "refactoring.guru/es/design-patterns",
+   "horas": 6
+  },
+  {
+   "id": "6.3",
+   "curso": "Diseño y Patrones de Software",
+   "hito": "Abstract Factory y Builder",
+   "donde": "refactoring.guru/es/design-patterns",
+   "horas": 6
+  },
+  {
+   "id": "6.4",
+   "curso": "Diseño y Patrones de Software",
+   "hito": "Adapter, Decorator y Facade",
+   "donde": "refactoring.guru/es/design-patterns",
+   "horas": 8
+  },
+  {
+   "id": "6.5",
+   "curso": "Diseño y Patrones de Software",
+   "hito": "Observer y Strategy",
+   "donde": "refactoring.guru/es/design-patterns",
+   "horas": 6
+  },
+  {
+   "id": "6.6",
+   "curso": "Diseño y Patrones de Software",
+   "hito": "Command, State y Template Method",
+   "donde": "refactoring.guru/es/design-patterns",
+   "horas": 8
+  },
+  {
+   "id": "6.7",
+   "curso": "Diseño y Patrones de Software",
+   "hito": "Implementar 5 patrones en C++",
+   "donde": "refactoring.guru/es/design-patterns/cpp",
+   "horas": 12
+  },
+  {
+   "id": "6.8",
+   "curso": "Diseño y Patrones de Software",
+   "hito": "Refactorizar un proyecto propio aplicando 2 patrones",
+   "donde": "Tu proyecto del curso 'Aplicaciones de Ingeniería de Software'",
+   "horas": 12
+  },
+  {
+   "id": "7.1",
+   "curso": "Estructuras de Datos Avanzadas",
+   "hito": "Listas enlazadas (implementa la tuya)",
+   "donde": "CS50x Semana 5 · MIT OCW 6.006",
+   "horas": 8
+  },
+  {
+   "id": "7.2",
+   "curso": "Estructuras de Datos Avanzadas",
+   "hito": "Pilas y colas",
+   "donde": "CS50x Semana 5 · cppreference.com (std::stack, std::queue)",
+   "horas": 6
+  },
+  {
+   "id": "7.3",
+   "curso": "Estructuras de Datos Avanzadas",
+   "hito": "Tablas hash y manejo de colisiones",
+   "donde": "CS50x Semana 5 · MIT OCW 6.006",
+   "horas": 8
+  },
+  {
+   "id": "7.4",
+   "curso": "Estructuras de Datos Avanzadas",
+   "hito": "Árboles binarios y BST",
+   "donde": "MIT OCW 6.006 · Competitive Programmer's Handbook",
+   "horas": 10
+  },
+  {
+   "id": "7.5",
+   "curso": "Estructuras de Datos Avanzadas",
+   "hito": "Árboles balanceados (AVL): rotaciones",
+   "donde": "MIT OCW 6.006",
+   "horas": 10
+  },
+  {
+   "id": "7.6",
+   "curso": "Estructuras de Datos Avanzadas",
+   "hito": "Heaps y priority_queue",
+   "donde": "MIT OCW 6.006 · cppreference.com",
+   "horas": 8
+  },
+  {
+   "id": "7.7",
+   "curso": "Estructuras de Datos Avanzadas",
+   "hito": "Grafos: listas de adyacencia",
+   "donde": "Competitive Programmer's Handbook (cses.fi/book)",
+   "horas": 8
+  },
+  {
+   "id": "7.8",
+   "curso": "Estructuras de Datos Avanzadas",
+   "hito": "Union-Find y Trie",
+   "donde": "Competitive Programmer's Handbook · cp-algorithms.com",
+   "horas": 8
+  },
+  {
+   "id": "7.9",
+   "curso": "Estructuras de Datos Avanzadas",
+   "hito": "Resolver 25 problemas",
+   "donde": "CSES Problem Set (cses.fi/problemset)",
+   "horas": 25
+  },
+  {
+   "id": "8.1",
+   "curso": "Ingeniería de Requisitos",
+   "hito": "Stakeholders y elicitación (entrevistas, observación)",
+   "donde": "libro 'Software Requirements' (Wiegers)",
+   "horas": 5
+  },
+  {
+   "id": "8.2",
+   "curso": "Ingeniería de Requisitos",
+   "hito": "Requisitos funcionales vs no funcionales",
+   "donde": "libro 'Software Requirements' (Wiegers)",
+   "horas": 4
+  },
+  {
+   "id": "8.3",
+   "curso": "Ingeniería de Requisitos",
+   "hito": "Historias de usuario con criterios de aceptación",
+   "donde": "atlassian.com/agile: User stories",
+   "horas": 5
+  },
+  {
+   "id": "8.4",
+   "curso": "Ingeniería de Requisitos",
+   "hito": "Casos de uso y diagramas",
+   "donde": "uml-diagrams.org",
+   "horas": 5
+  },
+  {
+   "id": "8.5",
+   "curso": "Ingeniería de Requisitos",
+   "hito": "Priorización de requisitos (MoSCoW)",
+   "donde": "atlassian.com/agile",
+   "horas": 3
+  },
+  {
+   "id": "8.6",
+   "curso": "Ingeniería de Requisitos",
+   "hito": "Validar requisitos con un prototipo",
+   "donde": "Figma (figma.com) o papel",
+   "horas": 5
+  },
+  {
+   "id": "8.7",
+   "curso": "Ingeniería de Requisitos",
+   "hito": "Documento de requisitos de un proyecto real",
+   "donde": "Tu proyecto (formato SRS)",
+   "horas": 12
+  },
+  {
+   "id": "9.1",
+   "curso": "Matemática Discreta",
+   "hito": "Lógica proposicional y predicados",
+   "donde": "MIT OCW 6.042J · discrete.openmathbooks.org",
+   "horas": 8
+  },
+  {
+   "id": "9.2",
+   "curso": "Matemática Discreta",
+   "hito": "Conjuntos, relaciones y funciones",
+   "donde": "discrete.openmathbooks.org",
+   "horas": 8
+  },
+  {
+   "id": "9.3",
+   "curso": "Matemática Discreta",
+   "hito": "Demostraciones: directa, contradicción e inducción",
+   "donde": "MIT OCW 6.042J",
+   "horas": 10
+  },
+  {
+   "id": "9.4",
+   "curso": "Matemática Discreta",
+   "hito": "Conteo y combinatoria",
+   "donde": "discrete.openmathbooks.org",
+   "horas": 10
+  },
+  {
+   "id": "9.5",
+   "curso": "Matemática Discreta",
+   "hito": "Teoría de grafos: conceptos básicos",
+   "donde": "discrete.openmathbooks.org · MIT OCW 6.042J",
+   "horas": 8
+  },
+  {
+   "id": "9.6",
+   "curso": "Matemática Discreta",
+   "hito": "Probabilidad discreta",
+   "donde": "MIT OCW 6.042J · Khan Academy",
+   "horas": 8
+  },
+  {
+   "id": "9.7",
+   "curso": "Matemática Discreta",
+   "hito": "Teoría de números: divisibilidad y módulo",
+   "donde": "discrete.openmathbooks.org",
+   "horas": 8
+  },
+  {
+   "id": "9.8",
+   "curso": "Matemática Discreta",
+   "hito": "Resolver 30 ejercicios",
+   "donde": "Libros anteriores (ejercicios)",
+   "horas": 12
+  },
+  {
+   "id": "10.1",
+   "curso": "Arquitectura de Computadores",
+   "hito": "Binario, hexadecimal y complemento a 2",
+   "donde": "CS50x Semana 0 · libro 'Code'",
+   "horas": 6
+  },
+  {
+   "id": "10.2",
+   "curso": "Arquitectura de Computadores",
+   "hito": "Compuertas lógicas",
+   "donde": "Nand2Tetris proyecto 1",
+   "horas": 10
+  },
+  {
+   "id": "10.3",
+   "curso": "Arquitectura de Computadores",
+   "hito": "Aritmética binaria y ALU",
+   "donde": "Nand2Tetris proyecto 2",
+   "horas": 10
+  },
+  {
+   "id": "10.4",
+   "curso": "Arquitectura de Computadores",
+   "hito": "Memoria y registros",
+   "donde": "Nand2Tetris proyecto 3",
+   "horas": 10
+  },
+  {
+   "id": "10.5",
+   "curso": "Arquitectura de Computadores",
+   "hito": "Lenguaje de máquina",
+   "donde": "Nand2Tetris proyecto 4",
+   "horas": 8
+  },
+  {
+   "id": "10.6",
+   "curso": "Arquitectura de Computadores",
+   "hito": "Arquitectura del computador Hack (CPU)",
+   "donde": "Nand2Tetris proyecto 5",
+   "horas": 12
+  },
+  {
+   "id": "10.7",
+   "curso": "Arquitectura de Computadores",
+   "hito": "Ensamblador",
+   "donde": "Nand2Tetris proyecto 6",
+   "horas": 12
+  },
+  {
+   "id": "11.1",
+   "curso": "Base de Datos",
+   "hito": "Modelo entidad-relación",
+   "donde": "CS50 SQL · dbdiagram.io (práctica)",
+   "horas": 5
+  },
+  {
+   "id": "11.2",
+   "curso": "Base de Datos",
+   "hito": "SELECT, filtros y orden",
+   "donde": "SQLBolt lecciones 1–5",
+   "horas": 4
+  },
+  {
+   "id": "11.3",
+   "curso": "Base de Datos",
+   "hito": "JOINs, agregaciones y orden de ejecución",
+   "donde": "SQLBolt lecciones 6–12",
+   "horas": 8
+  },
+  {
+   "id": "11.4",
+   "curso": "Base de Datos",
+   "hito": "Insertar, modificar y crear tablas",
+   "donde": "SQLBolt lecciones 13–18",
+   "horas": 6
+  },
+  {
+   "id": "11.5",
+   "curso": "Base de Datos",
+   "hito": "Normalización (1FN a 3FN)",
+   "donde": "CS50 SQL · CMU 15-445 (YouTube)",
+   "horas": 6
+  },
+  {
+   "id": "11.6",
+   "curso": "Base de Datos",
+   "hito": "Índices y rendimiento",
+   "donde": "use-the-index-luke.com",
+   "horas": 8
+  },
+  {
+   "id": "11.7",
+   "curso": "Base de Datos",
+   "hito": "Transacciones y ACID",
+   "donde": "CMU 15-445 (YouTube)",
+   "horas": 6
+  },
+  {
+   "id": "11.8",
+   "curso": "Base de Datos",
+   "hito": "SQLite desde C++",
+   "donde": "sqlite.org/cintro.html",
+   "horas": 8
+  },
+  {
+   "id": "11.9",
+   "curso": "Base de Datos",
+   "hito": "Proyecto: diseñar la base de datos de tu app",
+   "donde": "Tu proyecto",
+   "horas": 12
+  },
+  {
+   "id": "12.1",
+   "curso": "HCI for UX Design",
+   "hito": "Las 10 heurísticas de usabilidad de Nielsen",
+   "donde": "nngroup.com/articles/ten-usability-heuristics",
+   "horas": 3
+  },
+  {
+   "id": "12.2",
+   "curso": "HCI for UX Design",
+   "hito": "Leyes de UX",
+   "donde": "lawsofux.com",
+   "horas": 3
+  },
+  {
+   "id": "12.3",
+   "curso": "HCI for UX Design",
+   "hito": "Investigación de usuarios y personas",
+   "donde": "nngroup.com/articles",
+   "horas": 5
+  },
+  {
+   "id": "12.4",
+   "curso": "HCI for UX Design",
+   "hito": "Wireframes en papel o Figma",
+   "donde": "figma.com",
+   "horas": 6
+  },
+  {
+   "id": "12.5",
+   "curso": "HCI for UX Design",
+   "hito": "Prototipo interactivo",
+   "donde": "figma.com",
+   "horas": 8
+  },
+  {
+   "id": "12.6",
+   "curso": "HCI for UX Design",
+   "hito": "Test de usabilidad con 3 personas",
+   "donde": "libro 'Don't Make Me Think'",
+   "horas": 6
+  },
+  {
+   "id": "12.7",
+   "curso": "HCI for UX Design",
+   "hito": "Accesibilidad básica (WCAG)",
+   "donde": "w3.org/WAI",
+   "horas": 5
+  },
+  {
+   "id": "13.1",
+   "curso": "Matemática Computacional",
+   "hito": "Vectores y matrices",
+   "donde": "3Blue1Brown: Essence of Linear Algebra",
+   "horas": 6
+  },
+  {
+   "id": "13.2",
+   "curso": "Matemática Computacional",
+   "hito": "Transformaciones lineales",
+   "donde": "3Blue1Brown · MIT OCW 18.06",
+   "horas": 8
+  },
+  {
+   "id": "13.3",
+   "curso": "Matemática Computacional",
+   "hito": "Sistemas de ecuaciones y eliminación gaussiana",
+   "donde": "MIT OCW 18.06 · Khan Academy",
+   "horas": 8
+  },
+  {
+   "id": "13.4",
+   "curso": "Matemática Computacional",
+   "hito": "Implementar eliminación gaussiana en C++",
+   "donde": "Tu código",
+   "horas": 8
+  },
+  {
+   "id": "13.5",
+   "curso": "Matemática Computacional",
+   "hito": "Punto flotante y errores numéricos (IEEE 754)",
+   "donde": "CS50x Semana 1 · Wikipedia: IEEE 754",
+   "horas": 5
+  },
+  {
+   "id": "13.6",
+   "curso": "Matemática Computacional",
+   "hito": "Métodos numéricos: bisección y Newton en C++",
+   "donde": "Tu código · MIT OCW",
+   "horas": 10
+  },
+  {
+   "id": "13.7",
+   "curso": "Matemática Computacional",
+   "hito": "Interpolación y aproximación (introducción)",
+   "donde": "MIT OCW",
+   "horas": 8
+  },
+  {
+   "id": "14.1",
+   "curso": "Aplicaciones para Plataformas Web",
+   "hito": "HTML semántico y formularios",
+   "donde": "MDN: Learn web development · The Odin Project",
+   "horas": 8
+  },
+  {
+   "id": "14.2",
+   "curso": "Aplicaciones para Plataformas Web",
+   "hito": "CSS: Flexbox y Grid",
+   "donde": "MDN · The Odin Project",
+   "horas": 8
+  },
+  {
+   "id": "14.3",
+   "curso": "Aplicaciones para Plataformas Web",
+   "hito": "JavaScript básico",
+   "donde": "javascript.info",
+   "horas": 12
+  },
+  {
+   "id": "14.4",
+   "curso": "Aplicaciones para Plataformas Web",
+   "hito": "DOM y eventos",
+   "donde": "javascript.info · MDN",
+   "horas": 8
+  },
+  {
+   "id": "14.5",
+   "curso": "Aplicaciones para Plataformas Web",
+   "hito": "fetch y APIs REST",
+   "donde": "javascript.info · MDN",
+   "horas": 8
+  },
+  {
+   "id": "14.6",
+   "curso": "Aplicaciones para Plataformas Web",
+   "hito": "Backend con Node.js y Express",
+   "donde": "The Odin Project: NodeJS",
+   "horas": 12
+  },
+  {
+   "id": "14.7",
+   "curso": "Aplicaciones para Plataformas Web",
+   "hito": "Base de datos y despliegue",
+   "donde": "The Odin Project",
+   "horas": 10
+  },
+  {
+   "id": "14.8",
+   "curso": "Aplicaciones para Plataformas Web",
+   "hito": "Proyecto web completo",
+   "donde": "Tu proyecto",
+   "horas": 20
+  },
+  {
+   "id": "15.1",
+   "curso": "Desarrollo de Aplicaciones Open Source",
+   "hito": "Licencias de software libre",
+   "donde": "choosealicense.com · opensource.guide",
+   "horas": 3
+  },
+  {
+   "id": "15.2",
+   "curso": "Desarrollo de Aplicaciones Open Source",
+   "hito": "Fork y primer pull request de práctica",
+   "donde": "github.com/firstcontributions/first-contributions",
+   "horas": 3
+  },
+  {
+   "id": "15.3",
+   "curso": "Desarrollo de Aplicaciones Open Source",
+   "hito": "Leer README y CONTRIBUTING de un proyecto real",
+   "donde": "opensource.guide",
+   "horas": 3
+  },
+  {
+   "id": "15.4",
+   "curso": "Desarrollo de Aplicaciones Open Source",
+   "hito": "Encontrar un 'good first issue'",
+   "donde": "GitHub (etiqueta good first issue)",
+   "horas": 4
+  },
+  {
+   "id": "15.5",
+   "curso": "Desarrollo de Aplicaciones Open Source",
+   "hito": "Enviar tu primera contribución real",
+   "donde": "El proyecto que elijas",
+   "horas": 12
+  },
+  {
+   "id": "15.6",
+   "curso": "Desarrollo de Aplicaciones Open Source",
+   "hito": "Publicar tu propio repo con README y licencia",
+   "donde": "opensource.guide · choosealicense.com",
+   "horas": 5
+  },
+  {
+   "id": "15.7",
+   "curso": "Desarrollo de Aplicaciones Open Source",
+   "hito": "Integración continua con GitHub Actions",
+   "donde": "skills.github.com",
+   "horas": 6
+  },
+  {
+   "id": "16.1",
+   "curso": "Sistemas Operativos",
+   "hito": "Procesos y su API (fork, exec, wait)",
+   "donde": "OSTEP: Virtualización de la CPU",
+   "horas": 8
+  },
+  {
+   "id": "16.2",
+   "curso": "Sistemas Operativos",
+   "hito": "Planificación de CPU (scheduling)",
+   "donde": "OSTEP: Virtualización de la CPU",
+   "horas": 8
+  },
+  {
+   "id": "16.3",
+   "curso": "Sistemas Operativos",
+   "hito": "Memoria virtual: paginación y TLB",
+   "donde": "OSTEP: Virtualización de la memoria",
+   "horas": 12
+  },
+  {
+   "id": "16.4",
+   "curso": "Sistemas Operativos",
+   "hito": "Concurrencia: hilos y locks",
+   "donde": "OSTEP: Concurrencia",
+   "horas": 10
+  },
+  {
+   "id": "16.5",
+   "curso": "Sistemas Operativos",
+   "hito": "Semáforos y variables de condición",
+   "donde": "OSTEP: Concurrencia",
+   "horas": 8
+  },
+  {
+   "id": "16.6",
+   "curso": "Sistemas Operativos",
+   "hito": "Sistemas de archivos y persistencia",
+   "donde": "OSTEP: Persistencia",
+   "horas": 10
+  },
+  {
+   "id": "16.7",
+   "curso": "Sistemas Operativos",
+   "hito": "Proyecto: mini shell en C++",
+   "donde": "OSTEP projects (initial-utilities / processes-shell)",
+   "horas": 15
+  },
+  {
+   "id": "17.1",
+   "curso": "Aplicaciones para Plataformas Móviles",
+   "hito": "Elegir plataforma (Android/Kotlin o Flutter) e instalar el entorno",
+   "donde": "developer.android.com · docs.flutter.dev",
+   "horas": 4
+  },
+  {
+   "id": "17.2",
+   "curso": "Aplicaciones para Plataformas Móviles",
+   "hito": "Tu primera app",
+   "donde": "Android Basics with Compose · Flutter codelab",
+   "horas": 6
+  },
+  {
+   "id": "17.3",
+   "curso": "Aplicaciones para Plataformas Móviles",
+   "hito": "UI y layouts",
+   "donde": "Android Basics with Compose · docs.flutter.dev",
+   "horas": 8
+  },
+  {
+   "id": "17.4",
+   "curso": "Aplicaciones para Plataformas Móviles",
+   "hito": "Navegación entre pantallas",
+   "donde": "Android Basics with Compose · docs.flutter.dev",
+   "horas": 6
+  },
+  {
+   "id": "17.5",
+   "curso": "Aplicaciones para Plataformas Móviles",
+   "hito": "Datos locales (Room o SQLite)",
+   "donde": "developer.android.com · docs.flutter.dev",
+   "horas": 8
+  },
+  {
+   "id": "17.6",
+   "curso": "Aplicaciones para Plataformas Móviles",
+   "hito": "Consumir una API",
+   "donde": "Android Basics with Compose · docs.flutter.dev",
+   "horas": 8
+  },
+  {
+   "id": "17.7",
+   "curso": "Aplicaciones para Plataformas Móviles",
+   "hito": "Probar en un dispositivo real",
+   "donde": "developer.android.com · docs.flutter.dev",
+   "horas": 3
+  },
+  {
+   "id": "17.8",
+   "curso": "Aplicaciones para Plataformas Móviles",
+   "hito": "Proyecto móvil completo",
+   "donde": "Tu proyecto",
+   "horas": 20
+  },
+  {
+   "id": "18.1",
+   "curso": "Complejidad Algorítmica",
+   "hito": "Notación Big-O, Theta y Omega",
+   "donde": "MIT OCW 6.006 · Competitive Programmer's Handbook: Time complexity",
+   "horas": 6
+  },
+  {
+   "id": "18.2",
+   "curso": "Complejidad Algorítmica",
+   "hito": "Analizar bucles anidados y recursiones",
+   "donde": "MIT OCW 6.006",
+   "horas": 8
+  },
+  {
+   "id": "18.3",
+   "curso": "Complejidad Algorítmica",
+   "hito": "Recurrencias y teorema maestro",
+   "donde": "MIT OCW 6.006 · CLRS",
+   "horas": 8
+  },
+  {
+   "id": "18.4",
+   "curso": "Complejidad Algorítmica",
+   "hito": "Análisis amortizado",
+   "donde": "MIT OCW 6.046J · CLRS",
+   "horas": 6
+  },
+  {
+   "id": "18.5",
+   "curso": "Complejidad Algorítmica",
+   "hito": "Algoritmos voraces (greedy)",
+   "donde": "Competitive Programmer's Handbook",
+   "horas": 8
+  },
+  {
+   "id": "18.6",
+   "curso": "Complejidad Algorítmica",
+   "hito": "Programación dinámica",
+   "donde": "Competitive Programmer's Handbook",
+   "horas": 12
+  },
+  {
+   "id": "18.7",
+   "curso": "Complejidad Algorítmica",
+   "hito": "Clases P y NP (introducción)",
+   "donde": "MIT OCW 6.046J",
+   "horas": 6
+  },
+  {
+   "id": "18.8",
+   "curso": "Complejidad Algorítmica",
+   "hito": "Resolver 20 problemas de DP y greedy",
+   "donde": "CSES Problem Set (cses.fi/problemset)",
+   "horas": 20
+  },
+  {
+   "id": "19.1",
+   "curso": "Estadística Aplicada I",
+   "hito": "Estadística descriptiva: media, mediana y desviación",
+   "donde": "Khan Academy: Estadística y probabilidad",
+   "horas": 6
+  },
+  {
+   "id": "19.2",
+   "curso": "Estadística Aplicada I",
+   "hito": "Probabilidad básica",
+   "donde": "Khan Academy",
+   "horas": 8
+  },
+  {
+   "id": "19.3",
+   "curso": "Estadística Aplicada I",
+   "hito": "Distribuciones: normal y binomial",
+   "donde": "Khan Academy · StatQuest",
+   "horas": 8
+  },
+  {
+   "id": "19.4",
+   "curso": "Estadística Aplicada I",
+   "hito": "Muestreo e intervalos de confianza",
+   "donde": "Khan Academy · StatQuest",
+   "horas": 8
+  },
+  {
+   "id": "19.5",
+   "curso": "Estadística Aplicada I",
+   "hito": "Pruebas de hipótesis",
+   "donde": "Khan Academy · StatQuest",
+   "horas": 8
+  },
+  {
+   "id": "19.6",
+   "curso": "Estadística Aplicada I",
+   "hito": "Regresión lineal simple",
+   "donde": "StatQuest · Think Stats",
+   "horas": 6
+  },
+  {
+   "id": "19.7",
+   "curso": "Estadística Aplicada I",
+   "hito": "Analizar un conjunto de datos real",
+   "donde": "Think Stats (greenteapress.com/thinkstats2)",
+   "horas": 12
+  },
+  {
+   "id": "20.1",
+   "curso": "Redes y Comunicaciones de Datos",
+   "hito": "Modelos OSI y TCP/IP",
+   "donde": "Kurose & Ross cap. 1",
+   "horas": 6
+  },
+  {
+   "id": "20.2",
+   "curso": "Redes y Comunicaciones de Datos",
+   "hito": "Capa de aplicación: HTTP y DNS",
+   "donde": "Kurose & Ross cap. 2",
+   "horas": 8
+  },
+  {
+   "id": "20.3",
+   "curso": "Redes y Comunicaciones de Datos",
+   "hito": "Capa de transporte: TCP y UDP",
+   "donde": "Kurose & Ross cap. 3",
+   "horas": 10
+  },
+  {
+   "id": "20.4",
+   "curso": "Redes y Comunicaciones de Datos",
+   "hito": "Capa de red: IP, direccionamiento y subnetting",
+   "donde": "Kurose & Ross cap. 4",
+   "horas": 10
+  },
+  {
+   "id": "20.5",
+   "curso": "Redes y Comunicaciones de Datos",
+   "hito": "Capa de enlace y Ethernet",
+   "donde": "Kurose & Ross cap. 6",
+   "horas": 6
+  },
+  {
+   "id": "20.6",
+   "curso": "Redes y Comunicaciones de Datos",
+   "hito": "Capturar tráfico con Wireshark",
+   "donde": "wireshark.org (guía de usuario)",
+   "horas": 5
+  },
+  {
+   "id": "20.7",
+   "curso": "Redes y Comunicaciones de Datos",
+   "hito": "Sockets en C++",
+   "donde": "Beej's Guide to Network Programming",
+   "horas": 10
+  },
+  {
+   "id": "20.8",
+   "curso": "Redes y Comunicaciones de Datos",
+   "hito": "Proyecto: chat cliente-servidor",
+   "donde": "Tu proyecto",
+   "horas": 15
+  },
+  {
+   "id": "21.1",
+   "curso": "Arquitecturas de Software",
+   "hito": "Estilos: capas y MVC",
+   "donde": "martinfowler.com/architecture",
+   "horas": 6
+  },
+  {
+   "id": "21.2",
+   "curso": "Arquitecturas de Software",
+   "hito": "Arquitectura hexagonal y limpia",
+   "donde": "blog.cleancoder.com: The Clean Architecture",
+   "horas": 6
+  },
+  {
+   "id": "21.3",
+   "curso": "Arquitecturas de Software",
+   "hito": "Monolito vs microservicios",
+   "donde": "martinfowler.com/articles/microservices.html · microservices.io",
+   "horas": 6
+  },
+  {
+   "id": "21.4",
+   "curso": "Arquitecturas de Software",
+   "hito": "Arquitectura orientada a eventos",
+   "donde": "martinfowler.com/articles/201701-event-driven.html",
+   "horas": 5
+  },
+  {
+   "id": "21.5",
+   "curso": "Arquitecturas de Software",
+   "hito": "Atributos de calidad (rendimiento, seguridad, escalabilidad)",
+   "donde": "roadmap.sh/software-design-architecture",
+   "horas": 5
+  },
+  {
+   "id": "21.6",
+   "curso": "Arquitecturas de Software",
+   "hito": "Diagramas C4",
+   "donde": "c4model.com",
+   "horas": 5
+  },
+  {
+   "id": "21.7",
+   "curso": "Arquitecturas de Software",
+   "hito": "Registrar decisiones (ADR)",
+   "donde": "adr.github.io",
+   "horas": 3
+  },
+  {
+   "id": "21.8",
+   "curso": "Arquitecturas de Software",
+   "hito": "Diseñar la arquitectura de un proyecto propio",
+   "donde": "Tu proyecto",
+   "horas": 12
+  },
+  {
+   "id": "22.1",
+   "curso": "Desarrollo de Soluciones IoT",
+   "hito": "Electrónica básica: voltaje, corriente y resistencia",
+   "donde": "docs.arduino.cc/learn/electronics",
+   "horas": 5
+  },
+  {
+   "id": "22.2",
+   "curso": "Desarrollo de Soluciones IoT",
+   "hito": "Arduino: hacer parpadear un LED",
+   "donde": "docs.arduino.cc/learn",
+   "horas": 3
+  },
+  {
+   "id": "22.3",
+   "curso": "Desarrollo de Soluciones IoT",
+   "hito": "Leer un sensor de temperatura y humedad",
+   "donde": "docs.arduino.cc/learn",
+   "horas": 5
+  },
+  {
+   "id": "22.4",
+   "curso": "Desarrollo de Soluciones IoT",
+   "hito": "Conectar un ESP32 a WiFi",
+   "donde": "docs.espressif.com",
+   "horas": 6
+  },
+  {
+   "id": "22.5",
+   "curso": "Desarrollo de Soluciones IoT",
+   "hito": "MQTT: publicar y suscribirse",
+   "donde": "mqtt.org · mosquitto.org",
+   "horas": 8
+  },
+  {
+   "id": "22.6",
+   "curso": "Desarrollo de Soluciones IoT",
+   "hito": "Dashboard simple con tus datos",
+   "donde": "Tu proyecto",
+   "horas": 8
+  },
+  {
+   "id": "22.7",
+   "curso": "Desarrollo de Soluciones IoT",
+   "hito": "Proyecto IoT completo",
+   "donde": "Tu proyecto",
+   "horas": 20
+  },
+  {
+   "id": "23.1",
+   "curso": "Diseño de Experimentos de Ingeniería de Software",
+   "hito": "Preguntas de investigación e hipótesis",
+   "donde": "libro Wohlin et al.",
+   "horas": 5
+  },
+  {
+   "id": "23.2",
+   "curso": "Diseño de Experimentos de Ingeniería de Software",
+   "hito": "Variables, tratamientos y diseño experimental",
+   "donde": "libro Wohlin et al.",
+   "horas": 6
+  },
+  {
+   "id": "23.3",
+   "curso": "Diseño de Experimentos de Ingeniería de Software",
+   "hito": "Amenazas a la validez",
+   "donde": "libro Wohlin et al.",
+   "horas": 4
+  },
+  {
+   "id": "23.4",
+   "curso": "Diseño de Experimentos de Ingeniería de Software",
+   "hito": "Análisis estadístico: t-test y no paramétricos",
+   "donde": "Think Stats · Khan Academy",
+   "horas": 8
+  },
+  {
+   "id": "23.5",
+   "curso": "Diseño de Experimentos de Ingeniería de Software",
+   "hito": "Ejecutar un mini experimento (comparar dos algoritmos o lenguajes)",
+   "donde": "Tu proyecto",
+   "horas": 12
+  },
+  {
+   "id": "23.6",
+   "curso": "Diseño de Experimentos de Ingeniería de Software",
+   "hito": "Redactar el informe del experimento",
+   "donde": "libro Wohlin et al.",
+   "horas": 8
+  },
+  {
+   "id": "24.1",
+   "curso": "Arquitecturas de Software en Tecnologías Emergentes",
+   "hito": "Contenedores con Docker",
+   "donde": "docs.docker.com/get-started",
+   "horas": 8
+  },
+  {
+   "id": "24.2",
+   "curso": "Arquitecturas de Software en Tecnologías Emergentes",
+   "hito": "Docker Compose: varios servicios",
+   "donde": "docs.docker.com/compose",
+   "horas": 5
+  },
+  {
+   "id": "24.3",
+   "curso": "Arquitecturas de Software en Tecnologías Emergentes",
+   "hito": "Conceptos de nube: IaaS, PaaS y SaaS",
+   "donde": "AWS Skill Builder: Cloud Essentials",
+   "horas": 6
+  },
+  {
+   "id": "24.4",
+   "curso": "Arquitecturas de Software en Tecnologías Emergentes",
+   "hito": "Serverless (funciones como servicio)",
+   "donde": "AWS Skill Builder",
+   "horas": 5
+  },
+  {
+   "id": "24.5",
+   "curso": "Arquitecturas de Software en Tecnologías Emergentes",
+   "hito": "Kubernetes básico",
+   "donde": "kubernetes.io/docs/tutorials/kubernetes-basics",
+   "horas": 10
+  },
+  {
+   "id": "24.6",
+   "curso": "Arquitecturas de Software en Tecnologías Emergentes",
+   "hito": "Arquitectura de una API con gateway",
+   "donde": "microservices.io",
+   "horas": 5
+  },
+  {
+   "id": "24.7",
+   "curso": "Arquitecturas de Software en Tecnologías Emergentes",
+   "hito": "Introducción al aprendizaje automático",
+   "donde": "Google ML Crash Course",
+   "horas": 12
+  },
+  {
+   "id": "25.1",
+   "curso": "Gerencia de Proyectos en Computación",
+   "hito": "Ciclo de vida de un proyecto",
+   "donde": "atlassian.com/agile",
+   "horas": 4
+  },
+  {
+   "id": "25.2",
+   "curso": "Gerencia de Proyectos en Computación",
+   "hito": "Alcance y estructura de desglose (WBS)",
+   "donde": "atlassian.com/agile",
+   "horas": 4
+  },
+  {
+   "id": "25.3",
+   "curso": "Gerencia de Proyectos en Computación",
+   "hito": "Estimación (story points)",
+   "donde": "atlassian.com/agile",
+   "horas": 4
+  },
+  {
+   "id": "25.4",
+   "curso": "Gerencia de Proyectos en Computación",
+   "hito": "Cronograma: Gantt y ruta crítica",
+   "donde": "Planner o GanttProject (ganttproject.biz)",
+   "horas": 5
+  },
+  {
+   "id": "25.5",
+   "curso": "Gerencia de Proyectos en Computación",
+   "hito": "Gestión de riesgos",
+   "donde": "atlassian.com/agile",
+   "horas": 4
+  },
+  {
+   "id": "25.6",
+   "curso": "Gerencia de Proyectos en Computación",
+   "hito": "Scrum: roles, eventos y artefactos",
+   "donde": "scrumguides.org",
+   "horas": 5
+  },
+  {
+   "id": "25.7",
+   "curso": "Gerencia de Proyectos en Computación",
+   "hito": "Tablero Kanban en GitHub Projects",
+   "donde": "kanbanguides.org · docs.github.com",
+   "horas": 4
+  },
+  {
+   "id": "25.8",
+   "curso": "Gerencia de Proyectos en Computación",
+   "hito": "Plan de un proyecto completo",
+   "donde": "Tu proyecto",
+   "horas": 10
+  },
+  {
+   "id": "26.1",
+   "curso": "Calidad y Mejora de Procesos de Software",
+   "hito": "Modelos de calidad (ISO/IEC 25010)",
+   "donde": "Resumen de ISO/IEC 25010",
+   "horas": 4
+  },
+  {
+   "id": "26.2",
+   "curso": "Calidad y Mejora de Procesos de Software",
+   "hito": "Niveles y técnicas de prueba",
+   "donde": "ISTQB Foundation Level Syllabus",
+   "horas": 10
+  },
+  {
+   "id": "26.3",
+   "curso": "Calidad y Mejora de Procesos de Software",
+   "hito": "Pruebas automatizadas y cobertura (gcov)",
+   "donde": "GoogleTest · gcc.gnu.org/onlinedocs/gcc/Gcov.html",
+   "horas": 8
+  },
+  {
+   "id": "26.4",
+   "curso": "Calidad y Mejora de Procesos de Software",
+   "hito": "Análisis estático (cppcheck, clang-tidy)",
+   "donde": "cppcheck.sourceforge.io",
+   "horas": 5
+  },
+  {
+   "id": "26.5",
+   "curso": "Calidad y Mejora de Procesos de Software",
+   "hito": "Revisiones de código",
+   "donde": "Software Engineering at Google (abseil.io/resources/swe-book)",
+   "horas": 4
+  },
+  {
+   "id": "26.6",
+   "curso": "Calidad y Mejora de Procesos de Software",
+   "hito": "Integración continua con GitHub Actions",
+   "donde": "docs.github.com/actions",
+   "horas": 6
+  },
+  {
+   "id": "26.7",
+   "curso": "Calidad y Mejora de Procesos de Software",
+   "hito": "Métricas y mejora de procesos (CMMI, visión general)",
+   "donde": "ISTQB · resúmenes de CMMI",
+   "horas": 6
+  },
+  {
+   "id": "27.1",
+   "curso": "Desarrollo Ágil de Productos de Software",
+   "hito": "Manifiesto ágil y principios",
+   "donde": "agilemanifesto.org",
+   "horas": 2
+  },
+  {
+   "id": "27.2",
+   "curso": "Desarrollo Ágil de Productos de Software",
+   "hito": "Scrum en detalle",
+   "donde": "scrumguides.org",
+   "horas": 5
+  },
+  {
+   "id": "27.3",
+   "curso": "Desarrollo Ágil de Productos de Software",
+   "hito": "Backlog e historias de usuario",
+   "donde": "atlassian.com/agile",
+   "horas": 5
+  },
+  {
+   "id": "27.4",
+   "curso": "Desarrollo Ágil de Productos de Software",
+   "hito": "TDD: ciclo rojo-verde-refactor en C++",
+   "donde": "libro de Kent Beck · GoogleTest",
+   "horas": 12
+  },
+  {
+   "id": "27.5",
+   "curso": "Desarrollo Ágil de Productos de Software",
+   "hito": "Entrega continua (CI/CD)",
+   "donde": "docs.github.com/actions",
+   "horas": 6
+  },
+  {
+   "id": "27.6",
+   "curso": "Desarrollo Ágil de Productos de Software",
+   "hito": "Construir un producto en 3 sprints",
+   "donde": "Tu proyecto",
+   "horas": 30
+  }
+ ],
+ "entreno": [
+  {
+   "sesion": "A",
+   "grupo": "Piernas",
+   "ej": "Sentadilla a silla",
+   "f1": "2 × 8",
+   "f2": "3 × 10",
+   "f3": "3 × 12",
+   "desc": "60–90 s",
+   "facil": "Sentadilla parcial agarrado a un apoyo",
+   "dificil": "Sentadilla libre sin silla"
+  },
+  {
+   "sesion": "A",
+   "grupo": "Empuje",
+   "ej": "Flexiones inclinadas (manos en mesa firme)",
+   "f1": "2 × 6",
+   "f2": "3 × 8",
+   "f3": "3 × 10",
+   "desc": "60–90 s",
+   "facil": "Flexiones en pared",
+   "dificil": "Manos más bajas (en un escalón)"
+  },
+  {
+   "sesion": "A",
+   "grupo": "Glúteos",
+   "ej": "Puente de glúteos",
+   "f1": "2 × 10",
+   "f2": "3 × 12",
+   "f3": "3 × 15",
+   "desc": "60 s",
+   "facil": "Puente con recorrido corto",
+   "dificil": "Puente a una pierna"
+  },
+  {
+   "sesion": "A",
+   "grupo": "Espalda",
+   "ej": "Superman",
+   "f1": "2 × 8",
+   "f2": "3 × 10",
+   "f3": "3 × 12",
+   "desc": "60 s",
+   "facil": "Superman alterno (brazo y pierna opuestos)",
+   "dificil": "Superman con pausa de 3 s"
+  },
+  {
+   "sesion": "A",
+   "grupo": "Core",
+   "ej": "Plancha sobre rodillas",
+   "f1": "2 × 15 s",
+   "f2": "3 × 20 s",
+   "f3": "3 × 30 s",
+   "desc": "60 s",
+   "facil": "Plancha inclinada con manos en mesa",
+   "dificil": "Plancha completa sobre puntas"
+  },
+  {
+   "sesion": "B",
+   "grupo": "Piernas",
+   "ej": "Zancada estática con apoyo",
+   "f1": "2 × 6 por pierna",
+   "f2": "3 × 8 por pierna",
+   "f3": "3 × 10 por pierna",
+   "desc": "60–90 s",
+   "facil": "Zancada corta agarrado a la pared",
+   "dificil": "Zancada caminando"
+  },
+  {
+   "sesion": "B",
+   "grupo": "Empuje",
+   "ej": "Flexiones inclinadas lentas (3 s al bajar)",
+   "f1": "2 × 5",
+   "f2": "3 × 6",
+   "f3": "3 × 8",
+   "desc": "90 s",
+   "facil": "Flexiones en pared lentas",
+   "dificil": "Manos más bajas, bajada de 3 s"
+  },
+  {
+   "sesion": "B",
+   "grupo": "Espalda",
+   "ej": "Elevaciones Y-T-W boca abajo",
+   "f1": "2 × 6",
+   "f2": "3 × 8",
+   "f3": "3 × 10",
+   "desc": "60 s",
+   "facil": "Solo la T, sin pausa",
+   "dificil": "Pausa de 2 s arriba"
+  },
+  {
+   "sesion": "B",
+   "grupo": "Core",
+   "ej": "Dead bug",
+   "f1": "2 × 6 por lado",
+   "f2": "3 × 8 por lado",
+   "f3": "3 × 10 por lado",
+   "desc": "60 s",
+   "facil": "Solo talones al suelo alternos",
+   "dificil": "Brazo y pierna extendidos con pausa"
+  },
+  {
+   "sesion": "B",
+   "grupo": "Core",
+   "ej": "Bird dog",
+   "f1": "2 × 6 por lado",
+   "f2": "3 × 8 por lado",
+   "f3": "3 × 10 por lado",
+   "desc": "60 s",
+   "facil": "Solo levantar los brazos",
+   "dificil": "Pausa de 5 s y codo a rodilla"
+  },
+  {
+   "sesion": "B",
+   "grupo": "Piernas",
+   "ej": "Elevación de talones",
+   "f1": "2 × 12",
+   "f2": "3 × 15",
+   "f3": "3 × 20",
+   "desc": "45 s",
+   "facil": "Con ambas manos apoyadas",
+   "dificil": "A una pierna"
+  }
+ ]
+}
